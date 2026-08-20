@@ -16,7 +16,7 @@ st.write("Fill in the details below to estimate the price of a used car using th
 @st.cache_resource
 def load_artifacts():
     # Load your trained Random Forest Model
-    model = joblib.load("Used_Cars_Price_prediction_model.pkl")
+    model = joblib.load("car_price_model.pkl")
     return model
 
 try:
